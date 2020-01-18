@@ -164,7 +164,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e79ea6c723bcc314daa33c7ac0d92b40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  main: {fileID: 0}
 --- !u!114 &61442780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -454,6 +453,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bae537c0f550f9a44a37421ff1f81b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myHP: 3000
+  enemyHP: 3000
+  btnGameStart: {fileID: 61442780}
+  myHPText: {fileID: 605535182}
+  enemyHPText: {fileID: 404339757}
   sampleCard: {fileID: 3411874881622271154, guid: 70cea6096b2a4494bbcec6f03514f2b1,
     type: 3}
   myCardList:
@@ -462,7 +466,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  youCardList:
+  enemyCardList:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
